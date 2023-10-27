@@ -16,6 +16,7 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
         rel="stylesheet"
     />
+    <link rel="stylesheet" type="text/css" href="css/globals.css">
 </head>
 <body>
     <!-- navbar -->
@@ -250,6 +251,33 @@
                 <span>(11) 98765-4321</span>
             </div>
         </div>
+        h1>Formulário de Consulta Médica Canabinoide</h1>
+        <p>Esta página oferece:</p>
+        
+        <form>
+            <label for="patologia">Escolha a patologia que deseja tratar:</label>
+            <select name="patologia" id="patologia">
+            <option value="patologia1">Patologia 1</option>
+            <option value="patologia2">Patologia 2</option>
+            <option value="patologia3">Patologia 3</option>
+            <!-- Adicione mais opções conforme necessário -->
+            </select>
+        
+            <label for="consulta_tipo">Tipo de consulta:</label>
+            <input type="radio" name="consulta_tipo" value="consulta_medica" id="consulta_medica">
+            <label for="consulta_medica">Consulta médica canabinoide (R$ 200)</label>
+        
+            <input type="radio" name="consulta_tipo" value="auxilio_importacao" id="auxilio_importacao">
+            <label for="auxilio_importacao">Auxílio para importação de produtos de Cannabis (RDC 660)</label>
+        
+            <label for="nome">Seu nome:</label>
+            <input type="text" name="nome" id="nome" required>
+        
+            <label for="email">Seu e-mail:</label>
+            <input type="email" name="email" id="email" required>
+        
+            <input type="submit" value="Enviar Formulário">
+        </form>
     </section>
 
     <!-- Footer -->
