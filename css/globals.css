@@ -189,3 +189,20 @@ body {
   padding: 0;
 }
 
+.consult-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #008CBA; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  text-decoration: none; /* Remover sublinhado de links */
+  border: none; /* Remover borda do botão */
+  border-radius: 5px; /* Borda arredondada */
+  font-size: 16px; /* Tamanho da fonte */
+  cursor: pointer; /* Cursor ao passar o mouse */
+  transition: background-color 0.3s; /* Efeito de transição da cor de fundo */
+
+}
+
+.consult-button:hover {
+  background-color: #005F80; /* Cor de fundo ao passar o mouse */
+}
